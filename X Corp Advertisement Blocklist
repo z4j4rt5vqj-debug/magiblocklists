@@ -1,0 +1,32 @@
+! X (Twitter) ad blocking
+twitter.com##article:has([data-testid="placementTracking"])
+x.com##article:has([data-testid="placementTracking"])
+
+twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="/promoted"])
+x.com##div[data-testid="cellInnerDiv"]:has(a[href*="/promoted"])
+
+twitter.com##div[data-testid="promoted-tweet"]
+x.com##div[data-testid="promoted-tweet"]
+
+twitter.com##div[data-testid="placementTracking"]
+x.com##div[data-testid="placementTracking"]
+
+twitter.com##div[data-testid="trend"]:has-text(Promoted)
+x.com##div[data-testid="trend"]:has-text(Promoted)
+
+twitter.com##div[aria-label*="Promoted"]
+x.com##div[aria-label*="Promoted"]
+
+twitter.com##div[data-testid="primaryColumn"] div:has(span:has-text(Promoted))
+x.com##div[data-testid="primaryColumn"] div:has(span:has-text(Promoted))
+
+! Suggested posts / who to follow / modules
+twitter.com##div[data-testid="recommendationModule"]
+x.com##div[data-testid="recommendationModule"]
+
+twitter.com##aside
+x.com##aside
+
+! Search results promoted content
+twitter.com##div[data-testid="conversation"]
+x.com##div[data-testid="conversation"]
