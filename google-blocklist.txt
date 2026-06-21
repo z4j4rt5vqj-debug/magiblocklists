@@ -1,0 +1,115 @@
+! Block core Google domains (all TLDs)
+||google.^
+||google.*^
+||googlesyndication.^
+||googlesyndication.*^
+||googleadservices.^
+||googleadservices.*^
+||doubleclick.^
+||doubleclick.*^
+||gstatic.^
+||gstatic.*^
+||googleapis.^
+||googleapis.*^
+||google-analytics.^
+||google-analytics.*^
+||analytics.google.^
+||analytics.google.*^
+||adservice.google.^
+||adservice.google.*^
+||pagead2.googlesyndication.^
+||pagead2.googlesyndication.*^
+
+! YouTube / video / media
+||youtube.^
+||youtube.*^
+||ytimg.^
+||ytimg.*^
+||youtube-nocookie.^
+||youtube-nocookie.*^
+
+! Accounts, authentication, user content
+||accounts.google.^
+||accounts.google.*^
+||accounts.youtube.^
+||accounts.youtube.*^
+||googleusercontent.^
+||googleusercontent.*^
+
+! Play / Android / Google services
+||play.google.^
+||play.google.*^
+||android.^
+||android.*^
+||androidclients.google.^
+||androidclients.google.*^
+||android.googleapis.^
+||android.googleapis.*^
+||clients6.google.^
+||clients6.google.*^
+
+! Maps / Places / Street View
+||maps.google.^
+||maps.google.*^
+||maps.gstatic.^
+||maps.gstatic.*^
+||maps.googleapis.^
+||maps.googleapis.*^
+
+! Fonts / UI assets
+||fonts.googleapis.^
+||fonts.googleapis.*^
+||fonts.gstatic.^
+||fonts.gstatic.*^
+
+! Tag managers, recaptcha, safety
+||tagmanager.google.^
+||tagmanager.google.*^
+||recaptcha.google.^
+||recaptcha.google.*^
+||safebrowsing.google.^
+||safebrowsing.google.*^
+
+! Ads, ad tracking, marketing
+||admob.google.^
+||admob.google.*^
+||adwords.google.^
+||adwords.google.*^
+||googleadservices.^
+||googletagservices.^
+||googletagmanager.^
+||googlesyndication.^
+||pagead.google.^
+||pagead.google.*^
+
+! Cloud, storage, docs
+||cloud.google.^
+||cloud.google.*^
+||storage.googleapis.^
+||storage.googleapis.*^
+||docs.google.^
+||docs.google.*^
+||drive.google.^
+||drive.google.*^
+||sheets.google.^
+||slides.google.^
+
+! Misc / common service hosts
+||ssl.google.^
+||ssl.google.*^
+||clients.google.^
+||clients.google.*^
+||lh3.google.^
+||lh3.google.*^
+||blogger.^
+||blogspot.^
+||blogspot.*^
+
+! Generic catch-alls for Google-owned hostnames and known patterns
+||*.google.*^
+||*.googleapis.*^
+||*.gstatic.*^
+||*.googleusercontent.*^
+
+! Optional: block Google IP ranges (if using IP-based blocking; use with caution)
+! (Not included here — AdGuard custom filters use domain rules above)
