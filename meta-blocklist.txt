@@ -1,0 +1,97 @@
+! Core Meta / Facebook / Instagram domains (all TLDs)
+||facebook.^
+||facebook.*^
+||fbcdn.^
+||fbcdn.*^
+||fb.^
+||fb.*^
+||instagram.^
+||instagram.*^
+||instagr.am^
+||instagr.am.*^
+||meta.^
+||meta.*^
+
+! Login / accounts / authentication
+||accounts.facebook.^
+||accounts.facebook.*^
+||m.facebook.^
+||m.facebook.*^
+||connect.facebook.^
+||connect.facebook.*^
+
+! APIs, graph, social plugins
+||graph.facebook.^
+||graph.facebook.*^
+||api.facebook.^
+||api.facebook.*^
+||staticxx.facebook.^
+||staticxx.facebook.*^
+||socialgraph.facebook.^
+||socialgraph.facebook.*^
+
+! Content delivery / media / images / videos
+||fbcdn.net^
+||fbcdn.net.*^
+||scontent.^
+||scontent.*^
+||cdninstagram.^
+||cdninstagram.*^
+||instagramcdn.^
+||instagramcdn.*^
+
+! Ads / tracking / analytics / pixels
+||pixel.facebook.^
+||pixel.facebook.*^
+||connect.facebook.net^
+||connect.facebook.net.*^
+||facebook.net^
+||facebook.net.*^
+||business.facebook.^
+||business.facebook.*^
+||business.instagram.^
+||business.instagram.*^
+
+! Messaging / WhatsApp / Threads
+||whatsapp.^
+||whatsapp.*^
+||chat.whatsapp.^
+||chat.whatsapp.*^
+||threads.net^
+||threads.net.*^
+
+! Messenger / in-app services
+||messenger.com^
+||messenger.com.*^
+||m.me^
+||m.me.*^
+
+! Developers / apps / SDKs
+||developers.facebook.^
+||developers.facebook.*^
+||connect.facebook.^
+||connect.facebook.*^
+||sdk.accountkit.^
+||sdk.accountkit.*^
+
+! Ads managers, commerce, shops
+||adsmanager.facebook.^
+||adsmanager.facebook.*^
+||commerce.facebook.^
+||commerce.facebook.*^
+||shops.facebook.^
+||shops.facebook.*^
+
+! Misc / common hosts and patterns
+||*.facebook.*^
+||*.fb.*^
+||*.fbcdn.*^
+||*.instagram.*^
+||*.cdninstagram.*^
+||*.meta.*^
+
+! Optional: block known short/redirect domains
+||fb.me^
+||fb.me.*^
+||ig.me^
+||ig.me.*^
